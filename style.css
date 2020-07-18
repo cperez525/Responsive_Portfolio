@@ -2,4 +2,20 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: black;
+}
+
+.p_1-3 {
+    margin-left: 2;
+}
+
+body {
+    background-color: #c4af9b
+}
+
+nav {
+    background-color: black;
+}
+.nav-bar{
+    flex-direction: row;
 }
