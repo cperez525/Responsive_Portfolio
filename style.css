@@ -1,4 +1,4 @@
-.footer {
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -10,12 +10,16 @@
 }
 
 body {
-    background-color: #c4af9b
+    background-color: #c4af9b;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
     background-color: black;
 }
-.nav-bar{
+.navbar ul{
     flex-direction: row;
+    justify-content: space-around;
 }
