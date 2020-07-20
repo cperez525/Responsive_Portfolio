@@ -1,3 +1,4 @@
+// Toggle Navbar to close if user clicks anything other than Nav links when Navbar toggle is enabled
 $(document).ready(function () {
     $(document).click(function (event) {
         var click = $(event.target);

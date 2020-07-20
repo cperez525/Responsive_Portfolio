@@ -1,15 +1,19 @@
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* Navbar styling */
+nav {
     background-color: black;
 }
 
-p {
-    margin-left: 2;
-    margin-right: 1;
+.navbar ul {
+    flex-direction: row;
+    justify-content: space-around;
 }
 
+.disabled {
+    font-weight: 900;
+}
+/* End Navbar styling */
+
+/* Body styling */
 body {
     background-color: #c4af9b;
     height: 100%;
@@ -17,20 +21,45 @@ body {
     padding: 0;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
+/* Headshot styling */
+article img {
+    height: 300px;
+    width: 225px;
 }
 
-nav {
+/* Bio text size laptop/large screen resolution */
+article p {
+    font-size: 1.08rem;
+}
+
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: black;
 }
-.navbar ul{
-    flex-direction: row;
-    justify-content: space-around;
+
+/* Nav position, page header, and bio text styling on 991px or smaller screen*/
+@media screen and (max-width: 991px) {
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    div h1 {
+        padding-top: 70px;
+    }
+    article p {
+        font-size: 1rem;
+        margin-left: 5px;
+    }
 }
 
-.disabled {
-    font-weight: 900; 
+/* Headshot shrink on 342px or smaller screen*/
+@media screen and (max-width: 342px) {
+    article img {
+        height: 220px;
+        width: 145px;
+    }
 }
