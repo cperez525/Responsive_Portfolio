@@ -21,6 +21,12 @@ body {
     padding: 0;
 }
 
+div h1 {
+    font-family: Serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
 /* Headshot styling */
 article img {
     height: 300px;
@@ -30,6 +36,7 @@ article img {
 /* Bio text size laptop/large screen resolution */
 article p {
     font-size: 1.08rem;
+    font-weight: 500;
 }
 
 /* Footer styling */
@@ -40,7 +47,7 @@ footer {
     background-color: black;
 }
 
-/* Nav position, page header, and bio text styling on 991px or smaller screen*/
+/* Nav position, page header, and bio text styling on 991px or smaller */
 @media screen and (max-width: 991px) {
     header {
         position: fixed;
