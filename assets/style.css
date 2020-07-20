@@ -3,14 +3,35 @@ nav {
     background-color: black;
 }
 
+/* Color of name displaying in Navbar */
+.navbar-dark .navbar-brand {
+    color:  #c4af9b;
+    font-family: serif;
+    font-size: 25px;
+}
+
+/* Change nav items to white */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Change nav item of current page to pink/light red */
+.navbar-dark .navbar-nav .nav-link.disabled {
+    color: #c56262
+}
+
+/* Bold nav item of current page to help visual users more clearly understand which page they are on */
+.disabled {
+    font-weight: 900;
+}
+
+/* Allow nav item list to show horizontally rather than vertically to be more vertically economical at lower resolutions*/
 .navbar ul {
     flex-direction: row;
     justify-content: space-around;
 }
 
-.disabled {
-    font-weight: 900;
-}
+
 /* End Navbar styling */
 
 /* Body styling */
