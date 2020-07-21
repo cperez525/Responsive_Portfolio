@@ -7,5 +7,5 @@ Deployed application URL:
 
 Screenshots:
 1) About Me page- ![ScreenShot](assets/Images/About_Me_page.JPG)
-2) Portfolio page- ![ScreenShot](assets/Images/Portfolio_page.jpg)
-3) Contact_page- ![ScreenShot](assets/Images/Contact_page.jpg)
+2) Portfolio page- ![ScreenShot](assets/Images/Portfolio_page.JPG)
+3) Contact_page- ![ScreenShot](assets/Images/Contact_page.JPG)
