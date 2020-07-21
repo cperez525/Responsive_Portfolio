@@ -53,6 +53,10 @@ main .row {
     width: 100%;
 }
 
+main section.row {
+    padding-bottom: 70px;
+}
+
 h5 {
     text-align: center;
 }
