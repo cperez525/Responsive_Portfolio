@@ -1,4 +1,12 @@
 /* Begin Universal styling */
+/* Ensure that main content cannot overlap Navbar */
+header {
+    z-index: 2;
+}
+
+main {
+    z-index: 1;
+}
 /* Navbar styling */
 nav {
     background-color: black;
