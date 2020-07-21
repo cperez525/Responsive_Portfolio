@@ -1,0 +1,11 @@
+Responsive Portfolio by Cristino Perez (https://github.com/cperez525)
+
+Project repo url: https://github.com/cperez525/Responsive_Portfolio
+
+Deployed application URL: 
+
+
+Screenshots:
+1) About Me page- ![ScreenShot](assets/images/About_Me_page.jpg)
+2) Portfolio page- ![ScreenShot](assets/images/Portfolio_page.jpg)
+3) Contact_page- ![ScreenShot](assets/images/Contact_page.jpg)
