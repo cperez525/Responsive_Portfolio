@@ -24,6 +24,11 @@ nav {
     color: white;
 }
 
+/* Change nav item text to red on hover */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red
+}
+
 /* Change nav item of current page to pink/light red */
 .navbar-dark .navbar-nav .nav-link.disabled {
     color: #c56262
@@ -88,7 +93,6 @@ footer {
     opacity: 0.7;
     color: red;
 }
-
 /* End Universal Styling */
 
 /* Begin About Me page styling */
@@ -144,14 +148,17 @@ h5 {
     font-weight: 700;
 }
 
+/* Remove underline styling when hovering over card text */
 figure a:hover {
     text-decoration: none;
 }
 
+/* Change card text to red on hover */
 figure a p:hover {
     color:red;
 }
 /* End Portfolio Page Card styling */
+/* End Portfolio Page styling */
 
 /* Begin Contact Page form styling */
 .form-row {
