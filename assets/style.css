@@ -143,6 +143,14 @@ h5 {
 .card-text {
     font-weight: 700;
 }
+
+figure a:hover {
+    text-decoration: none;
+}
+
+figure a p:hover {
+    color:red;
+}
 /* End Portfolio Page Card styling */
 
 /* Begin Contact Page form styling */
