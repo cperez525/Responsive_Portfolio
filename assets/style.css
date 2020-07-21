@@ -1,3 +1,4 @@
+/* Begin Universal styling */
 /* Navbar styling */
 nav {
     background-color: black;
@@ -31,8 +32,6 @@ nav {
     flex-direction: row;
     justify-content: space-around;
 }
-
-
 /* End Navbar styling */
 
 /* Body styling */
@@ -43,12 +42,38 @@ body {
     padding: 0;
 }
 
-div h1 {
+h1 {
     font-family: Serif;
     font-weight: 900;
     font-size: 50px;
+    text-align: center;
 }
 
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+/* End Universal Styling */
+
+/* Begin About Me page styling */
+/* Headshot styling */
+article img {
+    height: 300px;
+    width: 225px;
+}
+
+/* Bio text size laptop/large screen resolution */
+article p {
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+/* End About Me page styling */
+
+/* Begin Portfolio Page styling */
+/* Row sizing and positioning */
 main .row {
     width: 100%;
 }
@@ -57,11 +82,12 @@ main section.row {
     padding-bottom: 70px;
 }
 
+/* Column header styling */
 h5 {
     text-align: center;
 }
 
-
+/* Begin Portfolio Card styling */
 .card {
     height: 220px;
     width: 220px;
@@ -84,55 +110,64 @@ h5 {
 .card-text {
     font-weight: 700;
 }
+/* End Portfolio Page Card styling */
 
-/* Headshot styling */
-article img {
-    height: 300px;
-    width: 225px;
+/* Begin Contact Page form styling */
+.form-row {
+    padding-bottom: 20px;
 }
 
-/* Bio text size laptop/large screen resolution */
-article p {
-    font-size: 1.08rem;
-    font-weight: 500;
+.form-control {
+    text-align: center;
+    font-size: large;
 }
 
-/* Footer styling */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
+textarea {
+    resize: none;
 }
+/* End Contact Page form styling
 
-/* Nav position, page header, and bio text styling on 991px or smaller, reset padding for navbar nav items */
+
+/* About Me and Portfolio page styling on 991px or smaller, reset padding for navbar nav items */
 @media screen and (max-width: 991px) {
+
+    /* Make header sticky at smaller resolutions */
     header {
         position: fixed;
         top: 0;
         width: 100%;
     }
+
+    /* Keep body header in view at smaller resolutions */
     div h1 {
         padding-top: 70px;
     }
+
+    /* different styling for bio text on About Me page */
     article p {
         font-size: 1rem;
         margin-left: 5px;
     }
+
+    /* Better nav item spacing at smaller resolutions */
     .navbar ul {
         padding: auto;
     }
+
+    /* Shrink Portfolio cards at small resolutions to prevent distortion */
     .card {
         height: 150px;
         width: 150px;
     }
+
+    /* Limit max dimensions of card images */
     .card img {
         max-height: 150px;
         max-width: 150px;
     }
 }
 
-/* Headshot shrink on 342px or smaller screen*/
+/* Headshot on About Me Page shrink on 342px or smaller screen*/
 @media screen and (max-width: 342px) {
     article img {
         height: 220px;
