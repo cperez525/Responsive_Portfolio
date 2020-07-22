@@ -10,6 +10,7 @@ main {
 /* Navbar styling */
 nav {
     background-color: black;
+    padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 /* Color of name displaying in Navbar */
