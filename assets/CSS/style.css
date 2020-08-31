@@ -9,13 +9,14 @@ main {
 }
 /* Navbar styling */
 nav {
-    background-color: black;
+    background-color: rgb(32, 31, 31);
     padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
+
 /* Color of name displaying in Navbar */
 .navbar-dark .navbar-brand {
-    color:  #c4af9b;
+    color:  #bb9979;
     font-family: serif;
     font-size: 25px;
 }
@@ -27,7 +28,8 @@ nav {
 
 /* Change nav item text to red on hover */
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: red
+    color: red;
+
 }
 
 /* Change nav item of current page to pink/light red */
@@ -50,7 +52,7 @@ nav {
 
 /* Body styling */
 body {
-    background-color: #c4af9b;
+    background-color: #bb9979;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -68,7 +70,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: rgb(32, 31, 31);
 }
 
 /* 3rd party social media icon styling */
@@ -78,10 +80,11 @@ footer {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    height: auto;
 }
 
-.fa-facebook {
-    background: #3B5998;
+.fa-github {
+    background: black;
     color: white;
 }
 
@@ -92,7 +95,8 @@ footer {
 
 .fa:hover {
     opacity: 0.7;
-    color: red;
+    color:red;
+    text-decoration: none;
 }
 /* End Universal Styling */
 
