@@ -159,6 +159,10 @@ h5 {
     max-width: fit-content;
 }
 
+/* #eatDaBurger {
+    height: 95%;
+    width: 95%;
+} */
 .card-body {
     background-color: black;
     text-align: center;
