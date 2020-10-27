@@ -2,7 +2,7 @@ Responsive Portfolio by Cristino Perez (https://github.com/cperez525)
 
 Project repo url: https://github.com/cperez525/Responsive_Portfolio
 
-Deployed application URL: https://cperez525.github.io/Responsive_Portfolio/
+Deployed application URL: https://cperez525.github.io/cperez-portfolio/
 
 Professional website with portfolio featuring project and other homework assignments.
 
